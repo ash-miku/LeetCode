@@ -1,5 +1,5 @@
 //leetcode整数反转
-class Solution_01 {
+class Solution_1 {
     public int reverse(int x) {
         int rev = 0;
         while (x != 0) {
@@ -13,9 +13,9 @@ class Solution_01 {
     }
 }
 
-public class Test_01 {
+public class Test_1 {
     public static void main(String[] args) {
-        int ret = new Solution_01().reverse(987654321);
+        int ret = new Solution_1().reverse(987654321);
 
         String out = String.valueOf(ret);
 

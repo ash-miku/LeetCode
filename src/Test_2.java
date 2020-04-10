@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Solution_02 {
+class Solution_2 {
     public boolean isPalindrome(int x) {
         if (x < 0 || (x % 10 == 0 && x != 0)) return false;
         int revertedNumber = 0;
@@ -15,7 +15,7 @@ class Solution_02 {
     }
 }
 
-public class Test_02 {
+public class Test_2 {
     public static String booleanToString(boolean input) {
         return input ? "True" : "False";
     }
@@ -26,7 +26,7 @@ public class Test_02 {
         while ((line = in.readLine()) != null) {
             int x = Integer.parseInt(line);
 
-            boolean ret = new Solution_02().isPalindrome(x);
+            boolean ret = new Solution_2().isPalindrome(x);
 
             String out = booleanToString(ret);
 
