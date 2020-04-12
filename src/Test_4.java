@@ -1,7 +1,4 @@
 //LeetCode最长公共前缀
-
-import java.io.IOException;
-
 class Solution {
     public String longestCommonPrefix(String[] str) {
         if (str.length == 0) return "";
